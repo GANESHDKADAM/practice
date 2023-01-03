@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="NeostoxTestClassValidateUserIdandBalance.ValidateUserIDAndAccBalance2properties3">
+        <methods>
+          <include name="logintoNeostox"/>
+          <include name="logOutFromNeostox"/>
+          <include name="launchbrowser"/>
+          <include name="closebrowser"/>
+          <include name="ValidateAccBalance"/>
+        </methods>
+      </class> <!-- NeostoxTestClassValidateUserIdandBalance.ValidateUserIDAndAccBalance2properties3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="NeostoxTestClassValidateUserIdandBalance.ValidateUserIDAndAccBalance">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="ValidateUserID"/>
+          <include name="ValidateAccBalance"/>
+          <include name="logOutFromNeostox"/>
+          <include name="logintoNeostox"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- NeostoxTestClassValidateUserIdandBalance.ValidateUserIDAndAccBalance -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
