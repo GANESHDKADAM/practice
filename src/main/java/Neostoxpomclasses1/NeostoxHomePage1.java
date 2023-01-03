@@ -8,6 +8,10 @@ import org.testng.Reporter;
 import NeostoxUtility1.Utilitycommonmethod2properties;
 public class NeostoxHomePage1 
 {
+	
+	
+	
+	
 	@FindBy(xpath="(//a[text()='OK'])[2]")private WebElement okbutton;
 	@FindBy(xpath="(//a[text()='Close'])[5]") private WebElement closebutton;
 	@FindBy(id="lbl_username") private WebElement username;
