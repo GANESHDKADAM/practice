@@ -65,6 +65,9 @@ public class NeostoxHomePage1
 		logoutbutton.click();
 		Reporter.log("loging out neostox",true);
 		
+		
+		
+		
 	}
 
 }
