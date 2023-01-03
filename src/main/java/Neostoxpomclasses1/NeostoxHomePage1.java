@@ -56,6 +56,10 @@ public class NeostoxHomePage1
 	//	Reporter.log("getting account balance",true);
 		Reporter.log("account balance is "+AccBalance,true);
 		return AccBalance;
+		
+		
+		
+		
 	}
 	public void logout(WebDriver driver)
 	{
@@ -64,6 +68,9 @@ public class NeostoxHomePage1
 		Utilitycommonmethod2properties.wait(driver, 1000);
 		logoutbutton.click();
 		Reporter.log("loging out neostox",true);
+		
+		
+		
 		
 	}
 
